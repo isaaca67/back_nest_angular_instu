@@ -1,0 +1,7 @@
+PORT_DB = 5432
+HOST = 'localhost'
+PASSWORD = admin123
+USERNAME = postgres
+DATABASE = 'back_nest_angularSGC-master'
+
+SECRET_JWT = "MI_CODIGO_SECRETO"
