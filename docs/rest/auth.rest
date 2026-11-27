@@ -1,0 +1,29 @@
+POST  http://127.0.0.1:3000/auth/register
+Content-Type: application/json
+
+{
+    "name":"prueba",
+    "email": "casa@gmail.com",
+    "password": "1234567"
+}
+
+### login
+
+POST  http://127.0.0.1:3000/auth/login
+Content-Type: application/json
+
+{
+    "name":"prueba2",
+    "email": "rp2@hm.com",
+    "password": "1234567"
+}
+
+### user
+
+GET http://127.0.0.1:3000/users
+
+
+### user
+
+GET http://127.0.0.1:3000/users
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImFkbWluQGdtYWlsLmNvbSIsImlkIjoxLCJpYXQiOjE3OTQ0OTI1NDYsImV4cCI6MTc5NDQ5NjE0Nn0.b-7Tgxz7ZKRfTVprPPUh1AuhuERYzycgYh1C0QdDmqI
